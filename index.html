@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dr. João Silva | Neurologista TEA</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="assets/icons/puzzle-icon.png" alt="Símbolo TEA" class="icon" />
+      <h1>Dr. João Silva</h1>
+      <p>Especialista em Transtorno do Espectro Autista (TEA)</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#chat">Atendimento</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="sobre">
+      <div class="container">
+        <h2>Sobre o Dr. João</h2>
+        <p>Neurologista com foco em atendimentos acolhedores para crianças no espectro autista. Utilizamos abordagens lúdicas e personalizadas.</p>
+        <img src="assets/img/elephant.png" alt="Elefante simpático" class="animal" />
+      </div>
+    </section>
+
+    <section id="servicos" class="pastel-box">
+      <div class="container">
+        <h2>Serviços</h2>
+        <ul>
+          <li>Avaliação neurológica</li>
+          <li>Acompanhamento contínuo</li>
+          <li>Orientações familiares</li>
+          <li>Encaminhamentos para terapias multidisciplinares</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="chat" class="chat-section">
+      <div class="container">
+        <h2>Converse com a IA</h2>
+        <div id="chatbox">
+          <div class="message bot">Olá! Sou a assistente virtual do Dr. João. Como posso te ajudar hoje?</div>
+        </div>
+        <input type="text" id="userInput" placeholder="Digite sua mensagem..." />
+        <button onclick="sendMessage()">Enviar</button>
+      </div>
+    </section>
+    <!-- Ícone do TEA -->
+<img src="assets/icons/puzzle-icon.png" alt="Símbolo TEA" class="icon" />
+
+<!-- Imagem de Elefante -->
+<img src="assets/img/elephant.jpg" alt="Elefante fofo" class="animal" />
+
+    <section id="contato">
+      <div class="container">
+        <h2>Contato</h2>
+        <form>
+          <input type="text" placeholder="Seu nome" required />
+          <input type="email" placeholder="Seu e-mail" required />
+          <textarea placeholder="Sua mensagem" rows="4"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Dr. João Silva • CRM 123456-SP</p>
+  </footer>
+
+  <script src="chat.js"></script>
+</body>
+</html>
